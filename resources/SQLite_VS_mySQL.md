@@ -37,8 +37,5 @@ All-in-all, it really comes down to what you’re comfortable using, and what yo
 
 Conclusion
 As a change of pace, I thought comparing two different RDBMS, MySQL and SQLite, was an interesting dive. It gave not only a little background on each but more of an understanding of how each worked. We also looked at a few major differences between the two, and that they really are less similar than what you may be lead to believe. In the end, we took a short look at when you may want to use one over the other, although that is more up to the user and your particular project. I hope you learned something from this, and that you found the information useful. I know I found it interesting. Until next time, cheers!
-
-Read all my articles for free with my weekly newsletter, thanks!
-
-Want to read all articles on Medium? Become a Medium member today!
+ 
 
