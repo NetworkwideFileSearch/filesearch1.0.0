@@ -1,7 +1,6 @@
  
 
-
-class Inverted_Index:
+class Inverted_Index( ):
     
     def __init__(self,token_dict = {}):
         self.token_dict = token_dict
@@ -35,6 +34,11 @@ class Inverted_Index:
     def inverting_file(self,filename,doc_id):
         token_lis = self.tokenize_file_name(filename)
         self.add_file_to_token_dict(token_lis,doc_id)
+
+    def fetch_result(self,query ):
+        res = next(val for key, val in self.token_dict.items() if key.startswith(query))
+        return res
+
 
 
 

@@ -101,6 +101,7 @@ class Filemanager:
         self.DFS_method(self.path)
         self.db = self.get_df()
         self.db['file_name_lower'] = self.db['file_name'].str.lower()
+        self.db['id'] = self.db.index
 
 
     def search_query(self,query):
