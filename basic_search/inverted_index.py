@@ -36,7 +36,11 @@ class Inverted_Index( ):
         self.add_file_to_token_dict(token_lis,doc_id)
 
     def fetch_result(self,query ):
-        res = next(val for key, val in self.token_dict.items() if key.startswith(query))
+        query = query.lower()
+        res = []
+        for key in self.token_dict.keys():
+            if key.startswith(query):
+                res += self.token_dict[key]
         return res
 
 
