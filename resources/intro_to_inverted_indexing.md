@@ -1,5 +1,5 @@
 A brief explanation of the Inverted Index
-The inverted index is a database index storing a mapping from content, such as words or numbers, to its locations in a database, or in a document or a set of documents. The purpose of an inverted index is to allow a fast full-text search.
+The inverted index is a database index storing a mapping from content, such as words or numbers, to its locations in a database, or in a document or a set of documents. The purpose of an inverted index is to allow a fast full-text search.<br><br>
 ![image](https://user-images.githubusercontent.com/56029669/196867374-dc333866-98a9-4ba6-984c-07ee42018156.png)
 
 
